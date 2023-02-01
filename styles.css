@@ -1,2 +1,19 @@
+body {
+	margin : 0px;
+	padding : 0px;
+}
+.container{
+	background-color: lightblue;
+	padding: 0px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
 
-/* Your CSS Code here. */
+.items{
+	width: 60px;
+	height : 30px;
+	color : darkgreen;
+	background-color: pink;
+	border: 1px solid black;
+}
